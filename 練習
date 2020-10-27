@@ -1,0 +1,7 @@
+function setup(){
+  createCanvas(100,100);
+  let s;
+  s=20;
+  rect(10,10,s,s);
+  rect(90-s,90-s,s,s);
+}
