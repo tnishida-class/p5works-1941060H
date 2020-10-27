@@ -1,7 +1,7 @@
 // 小手調べ
 function setup(){
 noFill(0);
-  for(let i = 0; i < 10; i++){
+  for(let i = 1; i < 11; i++){
     // BLANK[1]
     let s=i*10
     ellipse(50,50,s,s);
