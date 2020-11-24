@@ -44,6 +44,7 @@ function setup(){
   noStroke();
   fill(blue);
   rect(size*9/5,0,16,300)
+  rect(0,size*51/50,size*9/5,35)
 }
 
 function crossmark(x1, y1, x2, y2){
