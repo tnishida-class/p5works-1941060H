@@ -34,11 +34,12 @@ function setup(){
 
   for(let i = 0; i < 15; i++){
     fill(white);
+    noStroke();
     let theta = TWO_PI * i / 15;
-    let x = 380 + cos(theta) * 80;
+    let x = 387 + cos(theta) * 80;
     let y = 150 + sin(theta) * 80;
 
-    star(x,y,0.1);
+    star(x,y,15);
   }
   noStroke();
   fill(blue);
